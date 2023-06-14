@@ -1,0 +1,43 @@
+.container{
+ display:grid;
+ grid-template-columns: 200px 200px 200px;
+ grid-gap:0px;
+}
+
+.all{
+}
+.box{
+    height:200px;
+    border:1px solid grey;
+}
+
+.button{
+width:100%;
+height:100%;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight:600;
+font-size: 100px;
+color: aquamarine;
+}
+
+.startgame{
+    margin:10px;
+    font-weight: 600;
+    color:white;
+    background-color: rgb(40, 98, 207);
+    border:none;
+    padding:10px;
+    border-radius: 5px;
+}
+
+.current{
+    color:white;
+}
+
+.winner{
+    padding: 20px;
+    color:aqua;
+    background-color: green;
+    border-radius: 20px;
+    text-align: center;
+}
